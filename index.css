@@ -1,0 +1,145 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background: #f0f7f8;
+    box-sizing: border-box;
+  }
+  .container {
+    background: white;
+    box-shadow: 0px 0px 4px;
+  }
+  .landing {
+    background-image: url("./images/1.jpg");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     /* background-size: auto; */
+
+  }
+  .landing h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.2em;
+  }
+  .nav-list {
+    padding: 15px 0px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item {
+    list-style: none;
+    margin-right: 1%;
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    color: black;
+    transition: 100ms ease-in;
+  }
+
+  .nav-item a:hover {
+    color: #039d69;
+  }
+
+  .nav-item {
+    margin-right: auto;
+    margin-left: 2rem;
+  }
+  .about {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .about-right {
+    padding: 1%;
+    width: 50%;
+  }
+  .projects {
+    padding: 5%;
+    background-color: rgb(247, 246, 184);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* color:White; */
+  }
+  .projects-top {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+  }
+
+  .projects p {
+    /* text-align: center; */
+    text-align: justify;
+  }
+  .card-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card {
+    background-color: white;
+    color: black;
+    width: calc(97% / 3);
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+  }
+  .card button {
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: White;
+    border-radius: 5px;
+    padding: 1%;
+  }
+  .different {
+    padding: 5%;
+  }
+  .diff-cards {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+  }
+  .diff-card {
+    width: calc(94% / 3);
+  }
+  .bar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bar-parent {
+    width: 100%;
+    background-color: rgb(194, 194, 194);
+    border-radius: 6px;
+  }
+  .bar {
+    background-color: orange;
+
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .experience {
+    padding: 5%;
+    background-color: rgb(255, 255, 203);
+  }
+  .experience h4 {
+    text-align: center;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .content > div {
+    width: 45%;
+  } 
